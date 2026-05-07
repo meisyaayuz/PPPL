@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+
+# Environment files
+.env
+myapp/.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Laravel
+myapp/storage/logs/*
+myapp/storage/framework/cache/*
+myapp/storage/framework/sessions/*
+myapp/storage/framework/views/*
+myapp/bootstrap/cache/*
+!myapp/storage/logs/.gitkeep
+!myapp/storage/framework/cache/.gitkeep
+!myapp/storage/framework/sessions/.gitkeep
+!myapp/storage/framework/views/.gitkeep
+!myapp/bootstrap/cache/.gitkeep
+
+# SQLite database
+myapp/database/*.sqlite
+
+# Misc
+*.log
+npm-debug.log*
