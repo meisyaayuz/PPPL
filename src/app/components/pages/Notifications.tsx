@@ -1,4 +1,5 @@
 import { useNotifications } from "../../contexts/NotificationsContext";
+import { useAuth } from "../../contexts/AuthContext";
 import { useNavigate } from "react-router";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
@@ -10,12 +11,15 @@ import {
   Info,
   CheckCheck,
   X,
+  ArrowLeft,
 } from "lucide-react";
 
 export function Notifications() {
   const { notifications, unreadCount, markAsRead, markAllAsRead, clearNotification } =
     useNotifications();
+  const { user } = useAuth();
   const navigate = useNavigate();
+  const isAdmin = user?.role === "admin";
 
   const getIcon = (type: string) => {
     switch (type) {
@@ -69,10 +73,21 @@ export function Notifications() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-blue-50 to-purple-50 pb-24 pt-6">
       <div className="px-6">
+        {/* Back button for admin */}
+        {isAdmin && (
+          <button
+            onClick={() => navigate("/admin")}
+            className="flex items-center gap-2 text-gray-600 hover:text-gray-800 mb-4 transition-colors"
+          >
+            <ArrowLeft className="w-5 h-5" />
+            <span className="text-sm font-medium">Kembali ke Dashboard</span>
+          </button>
+        )}
+
         <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="text-3xl mb-2 bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
-              Notifikasi
+              Notifikasi {isAdmin ? "Admin" : ""}
             </h1>
             <p className="text-gray-600">
               {unreadCount} notifikasi belum dibaca
@@ -100,7 +115,10 @@ export function Notifications() {
                 Tidak Ada Notifikasi
               </h3>
               <p className="text-gray-600">
-                Anda akan menerima notifikasi tentang kondisi lingkungan di sini
+                {isAdmin
+                  ? "Anda akan menerima notifikasi saat user mengirim review baru"
+                  : "Anda akan menerima notifikasi tentang kondisi lingkungan di sini"
+                }
               </p>
             </div>
           </div>
