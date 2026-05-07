@@ -219,6 +219,7 @@ export function DestinationDetail() {
       type: "info",
       title: "Review Baru",
       message: `${user.name} memberikan review ${rating}⭐ untuk ${destination.name}: "${comment.trim().slice(0, 80)}${comment.trim().length > 80 ? '...' : ''}"`,
+      target: "admin",
     });
 
     toast.success("Review berhasil ditambahkan!");
