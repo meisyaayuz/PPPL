@@ -7,7 +7,7 @@ dist/
 
 # Environment files
 .env
-myapp/.env
+backend/.env
 
 # IDE
 .vscode/
@@ -18,19 +18,19 @@ myapp/.env
 Thumbs.db
 
 # Laravel
-myapp/storage/logs/*
-myapp/storage/framework/cache/*
-myapp/storage/framework/sessions/*
-myapp/storage/framework/views/*
-myapp/bootstrap/cache/*
-!myapp/storage/logs/.gitkeep
-!myapp/storage/framework/cache/.gitkeep
-!myapp/storage/framework/sessions/.gitkeep
-!myapp/storage/framework/views/.gitkeep
-!myapp/bootstrap/cache/.gitkeep
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*
+!backend/storage/logs/.gitkeep
+!backend/storage/framework/cache/.gitkeep
+!backend/storage/framework/sessions/.gitkeep
+!backend/storage/framework/views/.gitkeep
+!backend/bootstrap/cache/.gitkeep
 
 # SQLite database
-myapp/database/*.sqlite
+backend/database/*.sqlite
 
 # Misc
 *.log

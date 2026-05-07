@@ -1,11 +1,49 @@
+# GreenTour.Id - Wisata Berkelanjutan Indonesia
 
-  # Mobile app (Copy)
+Aplikasi web untuk wisata berkelanjutan di Indonesia.
 
-  This is a code bundle for Mobile app (Copy). The original project is available at https://www.figma.com/design/jYsIW6suCyfVWcKdW0xSRj/Mobile-app--Copy-.
+## Struktur Proyek
 
-  ## Running the code
+```
+├── frontend/       # React + Vite (UI)
+│   ├── src/        # Source code React
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── backend/        # Laravel 10 (API)
+│   ├── app/
+│   ├── routes/
+│   ├── database/
+│   └── composer.json
+│
+└── README.md
+```
 
-  Run `npm i` to install the dependencies.
+## Menjalankan Aplikasi
 
-  Run `npm run dev` to start the development server.
-  
+### 1. Backend (Laravel)
+
+```bash
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan jwt:secret
+php artisan migrate
+php artisan serve
+```
+
+Backend akan berjalan di `http://localhost:8000`
+
+### 2. Frontend (React + Vite)
+
+```bash
+cd frontend
+npm install --legacy-peer-deps
+npm run dev
+```
+
+Frontend akan berjalan di `http://localhost:5173`
+
+> **Catatan:** Frontend sudah dikonfigurasi dengan proxy ke `http://127.0.0.1:8000` untuk API requests melalui `/api`.
