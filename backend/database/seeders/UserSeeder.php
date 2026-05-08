@@ -10,7 +10,6 @@ class UserSeeder extends Seeder
 {
     public function run()
     {
-        // Create admin account
         User::updateOrCreate(
             ['email' => 'admin@eco.id'],
             [
@@ -20,7 +19,6 @@ class UserSeeder extends Seeder
             ]
         );
 
-        // Create a demo user account
         User::updateOrCreate(
             ['email' => 'user@eco.id'],
             [

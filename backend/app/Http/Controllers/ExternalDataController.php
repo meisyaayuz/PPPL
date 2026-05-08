@@ -37,7 +37,7 @@ class ExternalDataController extends Controller
                     $weatherDesc = $cuacaData['weather_desc'];
                     $temperature = $cuacaData['t'];
                     $humidity = $cuacaData['hu'];
-                    $weatherCode = $cuacaData['weather']; // BMKG weather code
+                    $weatherCode = $cuacaData['weather']; 
                     
                     $warning = null;
                     // Usually code 60+ indicates rain, 95+ indicates severe thunderstorms

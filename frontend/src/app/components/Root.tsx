@@ -13,7 +13,7 @@ export function Root() {
   useEffect(() => {
     if (!user) {
       navigate("/login");
-    } else if (user.role === "admin" && !["/admin", "/notifications", "/profile"].includes(location.pathname)) {
+    } else if (user.role === "admin" && !location.pathname.startsWith("/admin") && !["/notifications", "/profile"].includes(location.pathname)) {
       navigate("/admin");
     }
   }, [user, navigate, location.pathname]);
