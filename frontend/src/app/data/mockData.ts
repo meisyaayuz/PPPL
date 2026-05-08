@@ -33,16 +33,8 @@ export const mockDestinations: Destination[] = [
     longitude: 130.5167,
     description: "Surga bawah laut dengan keanekaragaman hayati laut tertinggi di dunia",
     image: "https://images.unsplash.com/photo-1724258406486-555bd0cf91bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyYWphJTIwYW1wYXQlMjBpbmRvbmVzaWF8ZW58MXx8fHwxNzc1NDg5NTcwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    ecoStatus: {
-      pollutionLevel: "rendah",
-      coralReefCondition: "baik",
-      safetyLevel: "aman",
-    },
-    weather: {
-      temperature: 28,
-      condition: "Cerah",
-      humidity: 75,
-    },
+    ecoStatus: { pollutionLevel: "rendah", safetyLevel: "aman" },
+    weather: { temperature: 0, condition: "Memuat...", humidity: 0 },
   },
   {
     id: "2",
@@ -53,16 +45,8 @@ export const mockDestinations: Destination[] = [
     longitude: 119.5000,
     description: "Habitat komodo dan pemandangan alam yang menakjubkan",
     image: "https://images.unsplash.com/photo-1676127956513-e44031879b89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrb21vZG8lMjBpc2xhbmQlMjBpbmRvbmVzaWF8ZW58MXx8fHwxNzc1NDg5NTcxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    ecoStatus: {
-      pollutionLevel: "rendah",
-      forestFireRisk: "rendah",
-      safetyLevel: "aman",
-    },
-    weather: {
-      temperature: 30,
-      condition: "Cerah Berawan",
-      humidity: 70,
-    },
+    ecoStatus: { pollutionLevel: "rendah", safetyLevel: "aman" },
+    weather: { temperature: 0, condition: "Memuat...", humidity: 0 },
   },
   {
     id: "3",
@@ -73,16 +57,8 @@ export const mockDestinations: Destination[] = [
     longitude: 98.8667,
     description: "Danau vulkanik terbesar di Indonesia dengan keindahan alam yang memukau",
     image: "https://images.unsplash.com/photo-1615009820619-d69e2f948e8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYWtlJTIwdG9iYSUyMGluZG9uZXNpYXxlbnwxfHx8fDE3NzU0ODk1NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    ecoStatus: {
-      pollutionLevel: "sedang",
-      forestFireRisk: "rendah",
-      safetyLevel: "aman",
-    },
-    weather: {
-      temperature: 24,
-      condition: "Hujan Ringan",
-      humidity: 85,
-    },
+    ecoStatus: { pollutionLevel: "rendah", safetyLevel: "aman" },
+    weather: { temperature: 0, condition: "Memuat...", humidity: 0 },
   },
   {
     id: "4",
@@ -93,17 +69,8 @@ export const mockDestinations: Destination[] = [
     longitude: 115.1689,
     description: "Pantai terkenal dengan ombak yang cocok untuk berselancar",
     image: "https://images.unsplash.com/photo-1567520595865-0da8e017f2c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrdXRhJTIwYmVhY2glMjBiYWxpfGVufDF8fHx8MTc3NTQ4OTU3MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    ecoStatus: {
-      pollutionLevel: "sedang",
-      coralReefCondition: "sedang",
-      safetyLevel: "hati-hati",
-    },
-    weather: {
-      temperature: 29,
-      condition: "Berawan",
-      humidity: 80,
-      warning: "Ombak tinggi - hati-hati saat berenang",
-    },
+    ecoStatus: { pollutionLevel: "rendah", safetyLevel: "aman" },
+    weather: { temperature: 0, condition: "Memuat...", humidity: 0 },
   },
   {
     id: "5",
@@ -114,17 +81,8 @@ export const mockDestinations: Destination[] = [
     longitude: 112.9531,
     description: "Gunung berapi aktif dengan pemandangan sunrise yang spektakuler",
     image: "https://images.unsplash.com/photo-1679109426640-966f09b70c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudCUyMGJyb21vJTIwaW5kb25lc2lhfGVufDF8fHx8MTc3NTQ4OTU3MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    ecoStatus: {
-      pollutionLevel: "tinggi",
-      forestFireRisk: "sedang",
-      safetyLevel: "hati-hati",
-    },
-    weather: {
-      temperature: 18,
-      condition: "Berkabut",
-      humidity: 90,
-      warning: "Aktivitas vulkanik meningkat - patuhi zona aman",
-    },
+    ecoStatus: { pollutionLevel: "rendah", safetyLevel: "aman" },
+    weather: { temperature: 0, condition: "Memuat...", humidity: 0 },
   },
   {
     id: "6",
@@ -135,17 +93,8 @@ export const mockDestinations: Destination[] = [
     longitude: 106.5500,
     description: "Gugusan pulau-pulau kecil yang indah dekat Jakarta",
     image: "https://images.unsplash.com/photo-1657020924917-0039de1e1b67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0aG91c2FuZCUyMGlzbGFuZHMlMjBpbmRvbmVzaWF8ZW58MXx8fHwxNzc1NDg5NTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    ecoStatus: {
-      pollutionLevel: "tinggi",
-      coralReefCondition: "buruk",
-      safetyLevel: "berbahaya",
-    },
-    weather: {
-      temperature: 31,
-      condition: "Cerah",
-      humidity: 78,
-      warning: "Tingkat polusi tinggi - tidak disarankan untuk menyelam",
-    },
+    ecoStatus: { pollutionLevel: "rendah", safetyLevel: "aman" },
+    weather: { temperature: 0, condition: "Memuat...", humidity: 0 },
   },
   {
     id: "7",
@@ -156,17 +105,8 @@ export const mockDestinations: Destination[] = [
     longitude: 111.6667,
     description: "Taman nasional dengan populasi orangutan liar terbesar",
     image: "https://images.unsplash.com/photo-1630509930233-0053317bf0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcmFuZ3V0YW4lMjBib3JuZW8lMjBmb3Jlc3R8ZW58MXx8fHwxNzc1NDg5NTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    ecoStatus: {
-      pollutionLevel: "rendah",
-      forestFireRisk: "tinggi",
-      safetyLevel: "hati-hati",
-    },
-    weather: {
-      temperature: 27,
-      condition: "Panas Terik",
-      humidity: 88,
-      warning: "Risiko kebakaran hutan tinggi - hindari aktivitas yang dapat memicu api",
-    },
+    ecoStatus: { pollutionLevel: "rendah", safetyLevel: "aman" },
+    weather: { temperature: 0, condition: "Memuat...", humidity: 0 },
   },
   {
     id: "8",
@@ -177,16 +117,8 @@ export const mockDestinations: Destination[] = [
     longitude: 123.7500,
     description: "Surga diving dengan terumbu karang yang masih pristine",
     image: "https://images.unsplash.com/photo-1729673766457-13ab5fc16dcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3YWthdG9iaSUyMGRpdmluZyUyMGluZG9uZXNpYXxlbnwxfHx8fDE3NzU0ODk1NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    ecoStatus: {
-      pollutionLevel: "rendah",
-      coralReefCondition: "baik",
-      safetyLevel: "aman",
-    },
-    weather: {
-      temperature: 29,
-      condition: "Cerah",
-      humidity: 72,
-    },
+    ecoStatus: { pollutionLevel: "rendah", safetyLevel: "aman" },
+    weather: { temperature: 0, condition: "Memuat...", humidity: 0 },
   },
 ];
 

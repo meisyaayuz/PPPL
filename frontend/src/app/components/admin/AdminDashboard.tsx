@@ -186,7 +186,7 @@ export function AdminDashboard() {
         {/* Add New Button */}
         <Button 
           className="w-full mb-6 bg-emerald-600 hover:bg-emerald-700"
-          onClick={() => toast.info("Fitur tambah destinasi akan membuka form")}
+          onClick={() => navigate("/admin/add-destination")}
         >
           <Plus className="w-4 h-4 mr-2" />
           Tambah Destinasi Baru

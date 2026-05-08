@@ -4,14 +4,14 @@ import { useAuth } from "../../contexts/AuthContext";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
-import { Leaf, AlertCircle } from "lucide-react";
+import { Leaf } from "lucide-react";
 import { toast } from "sonner";
 
 export function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const { login, user } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -19,17 +19,18 @@ export function Login() {
     setLoading(true);
 
     try {
-      const success = await login(email, password);
-      if (success) {
+      const result = await login(email, password);
+      if (result.success) {
         toast.success("Login berhasil!");
-        // Admin langsung ke admin dashboard
-        if (email === "admin@eco.id") {
+        // Check user role from the saved state after login
+        const savedUser = JSON.parse(localStorage.getItem("user") || "{}");
+        if (savedUser.role === "admin") {
           navigate("/admin");
         } else {
           navigate("/home");
         }
       } else {
-        toast.error("Email atau password salah");
+        toast.error(result.message || "Email atau password salah");
       }
     } catch (error) {
       toast.error("Terjadi kesalahan");
@@ -84,14 +85,7 @@ export function Login() {
               />
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border border-blue-200/50 rounded-2xl p-4 flex gap-3 backdrop-blur-sm">
-              <div className="bg-blue-500 p-1.5 rounded-lg h-fit">
-                <AlertCircle className="w-4 h-4 text-white" />
-              </div>
-              <p className="text-sm text-blue-900 leading-relaxed">
-                Demo: gunakan <strong>admin@eco.id</strong> / <strong>admin</strong> untuk akses admin
-              </p>
-            </div>
+
 
             <Button 
               type="submit" 

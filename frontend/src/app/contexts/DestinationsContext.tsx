@@ -32,13 +32,13 @@ export function DestinationsProvider({ children }: { children: ReactNode }) {
         longitude: parseFloat(item.longitude),
         description: item.deskripsi,
         image: item.gambar,
-        ecoStatus: item.eco_status || {
+        ecoStatus: {
           pollutionLevel: 'sedang',
           safetyLevel: 'hati-hati'
         },
-        weather: item.weather || {
+        weather: {
           temperature: 0,
-          condition: 'Unknown',
+          condition: 'Memuat...',
           humidity: 0
         },
         geoJson: item.geo_json || null,
@@ -47,9 +47,41 @@ export function DestinationsProvider({ children }: { children: ReactNode }) {
       
       setDestinations(mappedData);
       setError(null);
+      setLoading(false); // Stop main loading so user can see the cards
+
+      // Fetch Live Data lazily for each destination
+      mappedData.forEach((dest) => {
+        // Fetch Weather
+        if (dest.kodeWilayah) {
+          fetch(`/api/weather?kode_wilayah=${dest.kodeWilayah}`)
+            .then(res => res.json())
+            .then(weatherData => {
+              if (weatherData && !weatherData.error) {
+                setDestinations(prev => prev.map(d => 
+                  d.id === dest.id ? { ...d, weather: weatherData } : d
+                ));
+              }
+            })
+            .catch(err => console.error("Weather API error for " + dest.name, err));
+        }
+
+        // Fetch Ecosystem (Overpass API)
+        if (dest.latitude && dest.longitude) {
+          fetch(`/api/ecosystem?lat=${dest.latitude}&lon=${dest.longitude}`)
+            .then(res => res.json())
+            .then(ecoData => {
+              if (ecoData && !ecoData.error) {
+                setDestinations(prev => prev.map(d => 
+                  d.id === dest.id ? { ...d, ecoStatus: ecoData } : d
+                ));
+              }
+            })
+            .catch(err => console.error("Ecosystem API error for " + dest.name, err));
+        }
+      });
+
     } catch (err: any) {
       setError(err.message);
-    } finally {
       setLoading(false);
     }
   };

@@ -20,12 +20,12 @@ export function Register() {
     setLoading(true);
 
     try {
-      const success = await register(name, email, password);
-      if (success) {
+      const result = await register(name, email, password);
+      if (result.success) {
         toast.success("Registrasi berhasil!");
         navigate("/home");
       } else {
-        toast.error("Registrasi gagal");
+        toast.error(result.message || "Registrasi gagal");
       }
     } catch (error) {
       toast.error("Terjadi kesalahan");

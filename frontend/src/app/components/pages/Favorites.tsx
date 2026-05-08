@@ -1,5 +1,5 @@
 import { useFavorites } from "../../contexts/FavoritesContext";
-import { mockDestinations } from "../../data/mockData";
+import { useDestinations } from "../../contexts/DestinationsContext";
 import { useNavigate } from "react-router";
 import { Heart, MapPin, Star } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
@@ -9,10 +9,11 @@ import { useReviews } from "../../contexts/ReviewsContext";
 
 export function Favorites() {
   const { favorites, toggleFavorite } = useFavorites();
+  const { destinations } = useDestinations();
   const { getAverageRating, getReviewsByDestination } = useReviews();
   const navigate = useNavigate();
 
-  const favoriteDestinations = mockDestinations.filter(dest =>
+  const favoriteDestinations = destinations.filter(dest =>
     favorites.includes(dest.id)
   );
 

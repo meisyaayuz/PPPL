@@ -18,6 +18,8 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\DestinasiController;
 
+use App\Http\Controllers\ExternalDataController;
+
 Route::group([
     'middleware' => 'api',
     'prefix' => 'auth'
@@ -31,6 +33,10 @@ Route::group([
 
 Route::apiResource('users', UserController::class);
 Route::apiResource('destinasis', DestinasiController::class);
+
+// External API endpoints for live data
+Route::get('weather', [ExternalDataController::class, 'getWeather']);
+Route::get('ecosystem', [ExternalDataController::class, 'getEcoStatus']);
 
 Route::get('/test', function () {
     return response()->json([

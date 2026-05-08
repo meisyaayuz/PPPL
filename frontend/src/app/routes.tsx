@@ -11,6 +11,7 @@ import { Profile } from "./components/pages/Profile";
 import { Favorites } from "./components/pages/Favorites";
 import { Notifications } from "./components/pages/Notifications";
 import { AdminDashboard } from "./components/admin/AdminDashboard";
+import { AdminAddDestination } from "./components/admin/AdminAddDestination";
 import { NotFound } from "./components/NotFound";
 
 export const router = createBrowserRouter([
@@ -29,6 +30,7 @@ export const router = createBrowserRouter([
       { path: "/notifications", Component: Notifications },
       { path: "/profile", Component: Profile },
       { path: "/admin", Component: AdminDashboard },
+      { path: "/admin/add-destination", Component: AdminAddDestination },
       { path: "*", Component: NotFound },
     ],
   },

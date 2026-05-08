@@ -19,8 +19,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 2.618,
                 'longitude' => 98.812,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[98.762,2.568],[98.862,2.568],[98.862,2.6679999999999997],[98.762,2.6679999999999997],[98.762,2.568]]]}}]}',
             ],
             [
@@ -32,8 +30,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 3.396,
                 'longitude' => 97.432,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[97.382,3.346],[97.482,3.346],[97.482,3.4459999999999997],[97.382,3.4459999999999997],[97.382,3.346]]]}}]}',
             ],
             [
@@ -45,8 +41,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 5.826,
                 'longitude' => 95.319,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[95.269,5.776],[95.369,5.776],[95.369,5.8759999999999994],[95.269,5.8759999999999994],[95.269,5.776]]]}}]}',
             ],
             [
@@ -58,8 +52,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 3.551,
                 'longitude' => 98.118,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[98.068,3.5010000000000003],[98.16799999999999,3.5010000000000003],[98.16799999999999,3.601],[98.068,3.601],[98.068,3.5010000000000003]]]}}]}',
             ],
             [
@@ -71,8 +63,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -0.306,
                 'longitude' => 100.363,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[100.313,-0.356],[100.413,-0.356],[100.413,-0.256],[100.313,-0.256],[100.313,-0.356]]]}}]}',
             ],
             [
@@ -84,8 +74,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -2.859,
                 'longitude' => 107.962,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[107.912,-2.909],[108.012,-2.909],[108.012,-2.809],[107.912,-2.809],[107.912,-2.909]]]}}]}',
             ],
             [
@@ -97,8 +85,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -7.607,
                 'longitude' => 110.203,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[110.153,-7.657],[110.253,-7.657],[110.253,-7.557],[110.153,-7.557],[110.153,-7.657]]]}}]}',
             ],
             [
@@ -110,8 +96,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -7.942,
                 'longitude' => 112.953,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[112.903,-7.992],[113.003,-7.992],[113.003,-7.892],[112.903,-7.892],[112.903,-7.992]]]}}]}',
             ],
             [
@@ -123,8 +107,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -6.745,
                 'longitude' => 105.341,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[105.291,-6.795],[105.39099999999999,-6.795],[105.39099999999999,-6.695],[105.291,-6.695],[105.291,-6.795]]]}}]}',
             ],
             [
@@ -136,8 +118,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -5.589,
                 'longitude' => 106.561,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[106.51100000000001,-5.639],[106.611,-5.639],[106.611,-5.539000000000001],[106.51100000000001,-5.539000000000001],[106.51100000000001,-5.639]]]}}]}',
             ],
             [
@@ -149,8 +129,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -7.166,
                 'longitude' => 107.401,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[107.351,-7.216],[107.451,-7.216],[107.451,-7.1160000000000005],[107.351,-7.1160000000000005],[107.351,-7.216]]]}}]}',
             ],
             [
@@ -162,8 +140,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -6.711,
                 'longitude' => 106.945,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[106.895,-6.761],[106.99499999999999,-6.761],[106.99499999999999,-6.6610000000000005],[106.895,-6.6610000000000005],[106.895,-6.761]]]}}]}',
             ],
             [
@@ -175,8 +151,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -8.718,
                 'longitude' => 115.169,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[115.119,-8.768],[115.219,-8.768],[115.219,-8.668],[115.119,-8.668],[115.119,-8.768]]]}}]}',
             ],
             [
@@ -188,8 +162,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -8.518,
                 'longitude' => 115.259,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[115.209,-8.568000000000001],[115.309,-8.568000000000001],[115.309,-8.468],[115.209,-8.468],[115.209,-8.568000000000001]]]}}]}',
             ],
             [
@@ -201,8 +173,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -8.583,
                 'longitude' => 119.483,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[119.433,-8.633000000000001],[119.533,-8.633000000000001],[119.533,-8.533],[119.433,-8.533],[119.433,-8.633000000000001]]]}}]}',
             ],
             [
@@ -214,8 +184,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -8.411,
                 'longitude' => 116.457,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[116.407,-8.461],[116.50699999999999,-8.461],[116.50699999999999,-8.360999999999999],[116.407,-8.360999999999999],[116.407,-8.461]]]}}]}',
             ],
             [
@@ -227,8 +195,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -8.765,
                 'longitude' => 121.821,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[121.771,-8.815000000000001],[121.871,-8.815000000000001],[121.871,-8.715],[121.771,-8.715],[121.771,-8.815000000000001]]]}}]}',
             ],
             [
@@ -240,8 +206,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -8.256,
                 'longitude' => 124.646,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[124.596,-8.306000000000001],[124.696,-8.306000000000001],[124.696,-8.206],[124.596,-8.206],[124.596,-8.306000000000001]]]}}]}',
             ],
             [
@@ -253,8 +217,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -2.966,
                 'longitude' => 111.966,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[111.916,-3.016],[112.01599999999999,-3.016],[112.01599999999999,-2.9160000000000004],[111.916,-2.9160000000000004],[111.916,-3.016]]]}}]}',
             ],
             [
@@ -266,8 +228,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 2.285,
                 'longitude' => 118.243,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[118.193,2.2350000000000003],[118.29299999999999,2.2350000000000003],[118.29299999999999,2.335],[118.193,2.335],[118.193,2.2350000000000003]]]}}]}',
             ],
             [
@@ -279,8 +239,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 0.816,
                 'longitude' => 112.166,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[112.116,0.7659999999999999],[112.216,0.7659999999999999],[112.216,0.866],[112.116,0.866],[112.116,0.7659999999999999]]]}}]}',
             ],
             [
@@ -292,8 +250,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -3.298,
                 'longitude' => 114.588,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[114.538,-3.348],[114.63799999999999,-3.348],[114.63799999999999,-3.248],[114.538,-3.248],[114.538,-3.348]]]}}]}',
             ],
             [
@@ -305,8 +261,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -1.026,
                 'longitude' => 116.865,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[116.815,-1.076],[116.91499999999999,-1.076],[116.91499999999999,-0.976],[116.815,-0.976],[116.815,-1.076]]]}}]}',
             ],
             [
@@ -318,8 +272,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 1.155,
                 'longitude' => 113.336,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[113.286,1.105],[113.386,1.105],[113.386,1.205],[113.286,1.205],[113.286,1.105]]]}}]}',
             ],
             [
@@ -331,8 +283,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 1.624,
                 'longitude' => 124.764,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[124.714,1.574],[124.814,1.574],[124.814,1.6740000000000002],[124.714,1.6740000000000002],[124.714,1.574]]]}}]}',
             ],
             [
@@ -344,8 +294,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -2.977,
                 'longitude' => 119.896,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[119.846,-3.0269999999999997],[119.946,-3.0269999999999997],[119.946,-2.927],[119.846,-2.927],[119.846,-3.0269999999999997]]]}}]}',
             ],
             [
@@ -357,8 +305,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -5.321,
                 'longitude' => 123.593,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[123.543,-5.3709999999999996],[123.643,-5.3709999999999996],[123.643,-5.271],[123.543,-5.271],[123.543,-5.3709999999999996]]]}}]}',
             ],
             [
@@ -370,8 +316,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -1.385,
                 'longitude' => 120.126,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[120.07600000000001,-1.435],[120.176,-1.435],[120.176,-1.335],[120.07600000000001,-1.335],[120.07600000000001,-1.435]]]}}]}',
             ],
             [
@@ -383,8 +327,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -5.145,
                 'longitude' => 119.406,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[119.35600000000001,-5.194999999999999],[119.456,-5.194999999999999],[119.456,-5.095],[119.35600000000001,-5.095],[119.35600000000001,-5.194999999999999]]]}}]}',
             ],
             [
@@ -396,8 +338,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -2.909,
                 'longitude' => 122.463,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[122.413,-2.9589999999999996],[122.51299999999999,-2.9589999999999996],[122.51299999999999,-2.859],[122.413,-2.859],[122.413,-2.9589999999999996]]]}}]}',
             ],
             [
@@ -409,8 +349,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -4.516,
                 'longitude' => 129.909,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[129.85899999999998,-4.566],[129.959,-4.566],[129.959,-4.466],[129.85899999999998,-4.466],[129.85899999999998,-4.566]]]}}]}',
             ],
             [
@@ -422,8 +360,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -2.951,
                 'longitude' => 129.136,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[129.08599999999998,-3.001],[129.186,-3.001],[129.186,-2.9010000000000002],[129.08599999999998,-2.9010000000000002],[129.08599999999998,-3.001]]]}}]}',
             ],
             [
@@ -435,8 +371,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -3.125,
                 'longitude' => 129.566,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[129.516,-3.175],[129.616,-3.175],[129.616,-3.075],[129.516,-3.075],[129.516,-3.175]]]}}]}',
             ],
             [
@@ -448,8 +382,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 2.339,
                 'longitude' => 128.468,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[128.41799999999998,2.289],[128.518,2.289],[128.518,2.389],[128.41799999999998,2.389],[128.41799999999998,2.289]]]}}]}',
             ],
             [
@@ -461,8 +393,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => 0.814,
                 'longitude' => 127.319,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[127.269,0.7639999999999999],[127.369,0.7639999999999999],[127.369,0.864],[127.269,0.864],[127.269,0.7639999999999999]]]}}]}',
             ],
             [
@@ -474,8 +404,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -0.235,
                 'longitude' => 130.516,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[130.46599999999998,-0.285],[130.566,-0.285],[130.566,-0.185],[130.46599999999998,-0.185],[130.46599999999998,-0.285]]]}}]}',
             ],
             [
@@ -487,8 +415,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -4.516,
                 'longitude' => 137.649,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[137.599,-4.566],[137.699,-4.566],[137.699,-4.466],[137.599,-4.466],[137.599,-4.566]]]}}]}',
             ],
             [
@@ -500,8 +426,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -4.015,
                 'longitude' => 138.948,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[138.898,-4.0649999999999995],[138.99800000000002,-4.0649999999999995],[138.99800000000002,-3.965],[138.898,-3.965],[138.898,-4.0649999999999995]]]}}]}',
             ],
             [
@@ -513,8 +437,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -8.625,
                 'longitude' => 140.716,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[140.666,-8.675],[140.76600000000002,-8.675],[140.76600000000002,-8.575],[140.666,-8.575],[140.666,-8.675]]]}}]}',
             ],
             [
@@ -526,8 +448,6 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -2.529,
                 'longitude' => 134.821,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[134.771,-2.5789999999999997],[134.871,-2.5789999999999997],[134.871,-2.479],[134.771,-2.479],[134.771,-2.5789999999999997]]]}}]}',
             ],
             [
@@ -539,15 +459,11 @@ class DestinasiSeeder extends Seeder
                 'latitude' => -1.258,
                 'longitude' => 133.916,
                 'gambar' => 'https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=800&auto=format&fit=crop',
-                'eco_status' => json_encode(['pollutionLevel' => 'rendah', 'safetyLevel' => 'aman']),
-                'weather' => json_encode(['temperature' => 28, 'condition' => 'Cerah', 'humidity' => 70]),
                 'geo_json' => '{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"color\":\"#10b981\"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[133.86599999999999,-1.308],[133.966,-1.308],[133.966,-1.208],[133.86599999999999,-1.208],[133.86599999999999,-1.308]]]}}]}',
             ],
         ];
 
         foreach ($destinasis as $d) {
-            $d['eco_status'] = json_decode($d['eco_status'], true);
-            $d['weather'] = json_decode($d['weather'], true);
             $d['geo_json'] = json_decode($d['geo_json'], true);
             Destinasi::create($d);
         }

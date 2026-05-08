@@ -5,16 +5,16 @@ import { useDestinations } from "../../contexts/DestinationsContext";
 import { useReviews } from "../../contexts/ReviewsContext";
 import { useNotifications } from "../../contexts/NotificationsContext";
 import {
-  Leaf, TrendingUp, MapPin, AlertTriangle, Shield, Heart,
-  Star, BookOpen, Bell, ChevronRight, Cloud
+  Leaf, MapPin, AlertTriangle, Shield, Heart,
+  Star, BookOpen, Bell, ChevronRight
 } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 
 export function Home() {
   const { user } = useAuth();
-  const { favorites, isFavorite, toggleFavorite } = useFavorites();
+  const { isFavorite, toggleFavorite } = useFavorites();
   const { destinations, loading } = useDestinations();
   const { getAverageRating, getReviewsByDestination } = useReviews();
   const { unreadCount } = useNotifications();
